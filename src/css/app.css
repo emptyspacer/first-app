@@ -1,0 +1,25 @@
+@import-normalize;
+@import "recipe-list.css";
+@import "buttons.css";
+@import "recipe.css";
+@import "ingredient-list.css";
+@import "recipe-edit.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*, *::before, *::after {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
