@@ -4,9 +4,9 @@ export default function
 () {
   return (
     <>
-        <input type="text"></input>
-        <input type="text"></input>
-        <button>&times;</button>
+        <input className="recipe-edit__input"type="text"></input>
+        <input className="recipe-edit__input"type="text"></input>
+        <button className="btn btn--danger">&times;</button>
     </>
   )
 }
